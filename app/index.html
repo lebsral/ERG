@@ -33,6 +33,25 @@
       </div>
 
 <table>
+
+<thead>
+      <tr>
+        <th  style="background-color: #79BDE8" class="align-left" scope="col">
+                                <span id="lblNameMaterialHeader" title="Name of Material"  class='HLblue'>Name of Material</span>
+                            </th><th class="align-center" scope="col">
+                                <span id="lblGuideHeader" title="Guide Number">Guide No.</span>
+                            </th><th class="align-center" scope="col">
+                                <span style="background-color: #FFF203" id="lblIDNumHeader" title="Identification Number">ID No.</span>
+                            </th><th class="align-center" scope="col">
+                                <span id="lblWRMHeader" title="Water Reactive Material">WRM</span>
+                            </th><th class="align-center" scope="col">
+                                <span id="lblCWAHeader" title="Chemical Warfare Agent">CWA</span>
+                            </th><th class="align-center" scope="col">
+                                <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span>
+                            </th>
+      </tr>
+    </thead>
+    
 <tbody>
   <tr ng-repeat="chemical in chemicals">
   <td>{{chemical.Name}}</td>
