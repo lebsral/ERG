@@ -16,16 +16,20 @@ angular.module('ergApp')
     ];
     $scope.chemicals = [
     {
-    	Name: 'x',
-    	GID: 1234,
+    	Name: 'AC',
+    	GuideNum: 127,
+    	IdNum: 1051,
+    	CWA: true
     },
     {
-    	Name: 'y',
-    	GID: 1235,
+    	Name: 'Acetal',
+    	GuideNum: 127,
+    	IdNum: 1088,
     },
     {
-    	Name: 'z',
-    	GID: 1234
+    	Name: 'Acetaldehyde',
+    	GuideNum: 129,
+    	IdNum: 1089,
     }
     ];
   });
