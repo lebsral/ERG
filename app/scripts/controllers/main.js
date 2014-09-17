@@ -14,4 +14,18 @@ angular.module('ergApp')
       'AngularJS',
       'Karma'
     ];
+    $scope.chemicals = [
+    {
+    	Name: 'x',
+    	GID: 1234,
+    },
+    {
+    	Name: 'y',
+    	GID: 1235,
+    },
+    {
+    	Name: 'z',
+    	GID: 1234
+    }
+    ];
   });

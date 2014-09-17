@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="ergApp">
+  <body ng-app="ergApp" ng-controller="MainCtrl">
+  
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -27,8 +28,23 @@
           <li><a ng-href="#/about">About</a></li>
           <li><a ng-href="#">Contact</a></li>
         </ul>
+        <p>Total number of chemicals: {{ chemicals.length }}</p>
         <h3 class="text-muted">erg</h3>
       </div>
+
+<table>
+<tbody>
+  <tr ng-repeat="chemical in chemicals">
+  <td>{{chemical.Name}}</td>
+    
+
+  </tr>
+
+</tbody>
+  
+
+</table>
+
 
       <div ng-view=""></div>
 
@@ -36,6 +52,7 @@
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
     </div>
+   
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
