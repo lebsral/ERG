@@ -31,6 +31,8 @@
         <p>Total number of chemicals: {{ chemicals.length }}</p>
         <h3 class="text-muted">erg</h3>
       </div>
+<input type="text" ng-model="nameFilter" placeholder="Search..."/>
+
 
 <table>
 
@@ -51,9 +53,9 @@
                             </th>
       </tr>
     </thead>
-    
+
 <tbody>
-  <tr ng-repeat="chemical in chemicals">
+  <tr ng-repeat="chemical in chemicals | filter: nameFilter">
   <td>{{chemical.Name}}</td>
     
 
