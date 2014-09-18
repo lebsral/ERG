@@ -18,8 +18,11 @@ angular.module('ergApp')
     {
     	Name: 'AC',
     	GuideNum: 127,
+        Poly: false,
     	IdNum: 1051,
-    	CWA: true
+        WRM: false,
+    	CWA: true,
+        TIH: true
     },
     {
     	Name: 'Acetal',

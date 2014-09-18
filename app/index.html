@@ -23,15 +23,11 @@
     <!-- Add your site or application content here -->
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
+       
         <p>Total number of chemicals: {{ chemicals.length }}</p>
         <h3 class="text-muted">erg</h3>
       </div>
-<input type="text" ng-model="nameFilter" placeholder="Search..."/>
+<input type="text" ng-model="nameFilter" placeholder="Substace Name or ID Number"/>
 
 
 <table>
@@ -57,11 +53,11 @@
 <tbody>
   <tr ng-repeat="chemical in chemicals | filter: nameFilter">
   <td>{{chemical.Name}}</td>
-  <td>{{chemical.GuideNum}}</td>
+  <td>{{chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></td>
   <td>{{chemical.IdNum}}</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td><img ng-show="chemical.WRM==true" src="images/water.gif" alt="WRM"></td>
+  <td><img ng-show="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></td>
+  <td><img ng-show="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></td>
     
 
   </tr>
@@ -75,7 +71,7 @@
       <div ng-view=""></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p>Footer holder</p>
       </div>
     </div>
    
