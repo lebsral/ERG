@@ -2287,18 +2287,20 @@
   },
   {
     Name: 'Bromine pentafluoride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide144/id866/mnid919\'>144</a>',
+    GuideNum: 144,
+    Hilight: true,
     IdNum: 1745,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id866\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id866\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
-  },
+    WRM: true,
+    TIH: true,
+      },
   {
     Name: 'Bromine trifluoride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide144/id867/mnid920\'>144</a>',
+    GuideNum: 144,
+    Hilight: true,
     IdNum: 1746,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id867\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id867\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
-  },
+    WRM: true,
+    TIH: true,
+      },
   {
     Name: 'Bromoacetic acid',
     GuideNum: 156,
@@ -3449,11 +3451,12 @@
   },
   {
     Name: 'Chloroacetyl chloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide156/id875/mnid928\'>156</a>',
+    GuideNum: 156,
+    Hilight: true,
     IdNum: 1752,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id875\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id875\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
-  },
+    WRM: true,
+    TIH: true,
+      },
   {
     Name: 'Chloroanilines, liquid',
     GuideNum: 152,
@@ -3888,31 +3891,35 @@
   },
   {
     Name: 'Chlorosulfonic acid',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id877/mnid930\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id877\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id877\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Chlorosulfonic acid and Sulfur trioxide mixture',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id878/mnid933\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Chlorosulphonic acid',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id877/mnid931\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id877\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id877\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Chlorosulphonic acid and Sulphur trioxide mixture',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id878/mnid934\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: '1-Chloro-1',2',2',2-tetrafluoroethane',
@@ -12565,10 +12572,11 @@
   },
   {
     Name: 'Phosphorus oxychloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id953/mnid1017\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1810,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id953\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id953\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Phosphorus pentabromide',
@@ -12629,10 +12637,11 @@
   },
   {
     Name: 'Phosphorus trichloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id952/mnid1016\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1809,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id952\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id952\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Phosphorus trioxide',
@@ -15274,10 +15283,11 @@
   },
   {
     Name: 'Sulfur chlorides',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id985/mnid1051\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1828,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id985\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id985\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulfur dioxide',
@@ -15351,17 +15361,19 @@
   },
   {
     Name: 'Sulfur trioxide and Chlorosulfonic acid mixture',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id878/mnid935\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulfuryl chloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id995/mnid1073\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1834,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id995\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id995\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulfuryl fluoride',
@@ -15386,10 +15398,11 @@
   },
   {
     Name: 'Sulphur chlorides',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id985/mnid1050\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1828,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id985\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id985\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulphur dioxide',
@@ -15463,17 +15476,19 @@
   },
   {
     Name: 'Sulphur trioxide and Chlorosulphonic acid mixture',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id878/mnid932\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1754,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id878\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulphuryl chloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id995/mnid1072\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1834,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id995\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id995\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Sulphuryl fluoride',
@@ -15773,10 +15788,11 @@
   },
   {
     Name: 'Thionyl chloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id998/mnid1076\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1836,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id998\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id998\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Thiophene',
@@ -15861,10 +15877,11 @@
   },
   {
     Name: 'Titanium tetrachloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide137/id1000/mnid1078\'>137</a>',
+    GuideNum: 137,
+    Hilight: true,
     IdNum: 1838,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id1000\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id1000\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>'
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Titanium trichloride, pyrophoric',
