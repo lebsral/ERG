@@ -27,7 +27,11 @@
         <p>Total number of chemicals: {{ chemicals.length }}</p>
         <h3 class="text-muted">Emergency Response Guide</h3>
       </div>
-<input type="text" ng-model="nameFilter" placeholder="Substace Name or ID Number"/>
+
+      <div ng-view=""></div>
+
+      
+<input type="text" ng-model="nameFilter" placeholder="Name or Number"/>
 
 
 <table>
@@ -68,7 +72,7 @@
 </table>
 
 
-      <div ng-view=""></div>
+      
 
       <div class="footer">
         <p>Footer holder</p>
