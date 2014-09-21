@@ -28,48 +28,10 @@
         <h3 class="text-muted">Emergency Response Guide</h3>
       </div>
 
+      <li><a ng-href="#/about">About</a></li>
+
       <div ng-view=""></div>
 
-      
-<input type="text" ng-model="nameFilter" placeholder="Name or Number"/>
-
-
-<table>
-
-<thead>
-      <tr>
-        <th  style="background-color: #79BDE8" class="align-left" scope="col">
-                                <span id="lblNameMaterialHeader" title="Name of Material"  class='HLblue'>Name of Material</span>
-                            </th><th class="align-center" scope="col">
-                                <span id="lblGuideHeader" title="Guide Number">Guide No.</span>
-                            </th><th class="align-center" scope="col">
-                                <span style="background-color: #FFF203" id="lblIDNumHeader" title="Identification Number">ID No.</span>
-                            </th><th class="align-center" scope="col">
-                                <span id="lblWRMHeader" title="Water Reactive Material">WRM</span>
-                            </th><th class="align-center" scope="col">
-                                <span id="lblCWAHeader" title="Chemical Warfare Agent">CWA</span>
-                            </th><th class="align-center" scope="col">
-                                <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span>
-                            </th>
-      </tr>
-    </thead>
-
-<tbody>
-  <tr ng-repeat="chemical in chemicals | filter: nameFilter">
-  <td>{{chemical.Name}}</td>
-  <td>{{chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></td>
-  <td>{{chemical.IdNum}}</td>
-  <td><img ng-show="chemical.WRM==true" src="images/water.gif" alt="WRM"></td>
-  <td><img ng-show="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></td>
-  <td><img ng-show="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></td>
-    
-
-  </tr>
-
-</tbody>
-  
-
-</table>
 
 
       
