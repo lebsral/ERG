@@ -1,0 +1,267 @@
+[
+  {
+    term: "AEGL-1",
+    definition: "AAEGL-1 is the airborne concentration (expressed as parts per million or milligrams per cubic meter [ppm or mg/m3]) of a substance above which it is predicted that the general population, including susceptible individuals, could experience notable discomfort, irritation, or certain asymptomatic, non-sensory effects. However, the effects are not disabling and are transient and reversible upon cessation of exposure.",
+  },
+  {
+    term: "AEGL-2",
+    definition: "AEGL-2 is the airborne concentration (expressed as ppm or mg/m3) of a substance above which it is predicted that the general population, including susceptible individuals, could experience irreversible or other serious, long-lasting adverse health effects or an impaired ability to escape.",
+  },
+  {
+    term: "AEGL-3",
+    definition: "AEGL-3 is the airborne concentration (expressed as ppm or mg/m3) of a substance above which it is predicted that the general population, including susceptible individuals, could experience life-threatening health effects or death.",
+  },
+  {
+    term: "Alcohol resistant foam",
+    definition: "A foam that is resistant to “polar” chemicals such as ketones and esters which may break down other types of foam.",
+  },
+
+  {
+    term: "Biological agents",
+    definition: "Living organisms that cause disease, sickness and mortality in humans. Anthrax and Ebola are examples of biological agents. <b>Refer to GUIDE <a href="./guide158.html">158</a></b>.",
+  },
+  {
+    term: "Blister agents (vesicants)",
+    definition: "Substances that cause blistering of the skin.  Exposure is through liquid or vapor contact with any exposed tissue (eyes, skin, lungs). Mustard (H), Distilled Mustard (HD), Nitrogen Mustard (HN) and Lewisite (L) are blister agents.<br><b>Symptoms</b>: Red eyes, skin irritation, burning of skin, blisters, upper respiratory damage, cough, hoarseness.",
+  },
+  {
+    term: "Blood agents",
+    definition: "Substances that injure a person by interfering with cell respiration (the exchange of oxygen and carbon dioxide between blood and tissues). Hydrogen cyanide (AC) and Cyanogen chloride (CK) are blood agents.<b>Symptoms</b>: Respiratory distress, headache, unresponsiveness, seizures, coma.",
+  },
+  {
+    term: "Burn",
+    definition: "Refers to either a chemical or thermal burn, the former may be caused by corrosive substances and the latter by liquefied cryogenic gases, hot molten substances, or flames.",
+  },
+  {
+    term: "CBRN",
+    definition: "Chemical, biological, radiological or nuclear warfare agent.",
+  },
+  {
+    term: "CO<sub>2</sub>",
+    definition: "Carbon dioxide gas",
+  },
+  {
+    term: "Cold zone",
+    definition: "Area where the command post and support functions that are necessary to control the incident are located. This is also referred to as the clean zone, green zone or support zone in other documents. (EPA Standard Operating Safety Guidelines, OSHA 29 CFR 1910.120, NFPA 472)",
+  },
+  {
+    term: "Combustible liquid",
+    definition: "Liquids which have a flash point greater than 60oC (140oF) and below 93oC (200oF). U.S. regulations permit a flammable liquid with a flash point between 38oC (100oF) and 60oC (140oF) to be reclassed as a combustible liquid.",
+  },
+  {
+    term: "Compatibility Group",
+    definition: "Letters identify explosives that are deemed to be compatible. The definition of these Compatibility Groups in this Glossary are intended to be descriptive. Please consult the transportation of dangerous goods/hazardous materials or explosives regulations of your jurisdiction for the exact wording of the definitions. Class 1 materials are considered to be “compatible” if they can be transported together without significantly increasing either the probability of an incident or, for a given quantity, the magnitude of the effects of such an incident.<br>A  Substances which are expected to mass detonate very soon after fire reaches them. <br>B Articles which are expected to mass detonate very soon after fire reaches them.<br>C  Substances or articles which may be readily ignited and burn violently without necessarily exploding.<br>D  Substances or articles which may mass detonate (with blast and/or fragment hazard) when exposed to fire.<br>E&F Articles which may mass detonate in a fire.<br>G  Substances and articles which may mass explode and give off smoke or toxic gases.<br>H  Articles which in a fire may eject hazardous projectiles and dense white smoke.<br>J  Articles which may mass explode.<br>K Articles which in a fire may eject hazardous projectiles and toxic gases.<br>L  Substances and articles which present a special risk and could be activated by exposure to air or water.<br>N Articles which contain only extremely insensitive detonating substances and demonstrate a negligible probability of accidental ignition or propagation.<br>S  Packaged substances or articles which, if accidentally initiated, produce effects that are usually confined to the immediate vicinity.",
+  },
+  {
+    term: "Control zones",
+    definition: "Designated areas at dangerous goods incidents, based on safety and the degree of hazard. Many terms are used to describe control zones; however, in this guidebook, these zones are defined as the hot/exclusion/red/restricted zone, warm/ contamination reduction/yellow/limited access zone, and cold/ support/green/clean zone. (EPA Standard Operating SafetyGuidelines, OSHA 29 CFR 1910.120, NFPA 472)",
+  },
+  {
+    term: "Cryogenic liquid",
+    definition: "A refrigerated, liquefied gas that has a boiling point colder than -90oC (-130oF) at atmospheric pressure.",
+  },
+  {
+    term: "Dangerous Water Reactive Material",
+    definition: "Produces significant toxic gas when it comes in contact with water.",
+  },
+  {
+    term: "Decomposition products",
+    definition: "Products of a chemical or thermal break-down of a substance.",
+  },
+  {
+    term: "Decontamination",
+    definition: "The removal of dangerous goods from personnel and equipment to the extent necessary to prevent potential adverse health effects. Always avoid direct or indirect contact with dangerous goods; however, if contact occurs, personnel should be decontaminated as soon as possible. Since the methods used to decontaminate personnel and equipment differ from one chemical to another, contact the chemical manufacturer, through the agencies listed on the inside back cover, to determine the appropriate procedure. Contaminated clothing and equipment should be removed after use and stored in a controlled area (warm/contamination reduction/yellow/limited access zone) until cleanup procedures can be initiated. In some cases, protective clothing and equipment cannot be decontaminated and must be disposed of in a proper manner.",
+  },
+  {
+    term: "Dry chemical",
+    definition: "A preparation designed for fighting fires involving flammable liquids, pyrophoric substances and electrical equipment. Common types contain sodium bicarbonate or potassium bicarbonate.",
+  },
+  {
+    term: "Edema",
+    definition: "The accumulation of an excessive amount of watery fluid in cells and tissues. Pulmonary edema is an excessive buildup of water in the lungs, for instance, after inhalation of a gas that is corrosive to lung tissue.",
+  },
+  {
+    term: "ERPG(s)",
+    definition: "Emergency Response Planning Guideline(s). Values intended to provide estimates of concentration ranges above which one could reasonably anticipate observing adverse health effects; see ERPG-1, ERPG-2 and ERPG-3.",
+  },
+  {
+    term: "ERPG-1",
+    definition: "The maximum airborne concentration below which it is believed nearly all individuals could be exposed for up to 1 hour without experiencing more than mild, transient adverse health effects or without perceiving a clearly defined objectionable odo",
+  },
+  {
+    term: "ERPG-2",
+    definition: "The maximum airborne concentration below which it is believed nearly all individuals could be exposed for up to 1 hour without experiencing or developing irreversible or other serious health effects or symptoms that could impair an individual’s ability to take protective action.",
+  },
+  {
+    term: "ERPG-3",
+    definition: "The maximum airborne concentration below which it is believed nearly all individuals could be exposed for up to 1 hour without experiencing or developing life-threatening health effects",
+  },
+  {
+    term: "Flammable liquid",
+    definition: "A liquid that has a flash point of 60<sup>o</sup>C (140<sup>o</sup>F) or lower.",
+  },
+  {
+    term: "Flash point",
+    definition: "Lowest temperature at which a liquid or solid gives off vapor in such a concentration that, when the vapor combines with air near the surface of the liquid or solid, a flammable mixture is formed. Hence, the lower the flash point, the more flammable the material..",
+  },
+  {
+    term: "Hazard zones (Inhalation Hazard Zones)",
+    definition: "<b>Gases: LC50 of less than or equal to 200 ppm, Liquids: V equal to or greater than 500 LC50 and LC50 less than or equal to 200 ppm,</b>Gases: LC50 of less than or equal to 200 ppm, Liquids: V equal to or greater than 500 LC50 and LC50 less than or equal to 200 ppm,<br><b>HAZARD ZONE B:</b>Gases: LC50 greater than 200 ppm and less than or equal to 1000 ppm, Liquids: V equal to or greater than 10 LC50; LC50 less than or equal to 1000 ppm and criteria for Hazard Zone A are not met.<br><b>HAZARD ZONE C:</b>LC50 greater than 1000 ppm and less than or equal to 3000 ppm,<br><b>HAZARD ZONE D:</b>LC50 greater than 3000 ppm and less than or equal to 5000 ppm.",
+  },
+  {
+    term: "Hot zone",
+    definition: "Area immediately surrounding a dangerous goods incident which extends far enough to prevent adverse effects from released dangerous goods to personnel outside the zone. This zone is also referred to as exclusion zone, red zone or restricted zone in other documents. (EPA Standard Operating Safety Guidelines, OSHA 29 CFR 1910.120, NFPA 472)",
+  },
+  {
+    term: "IED",
+    definition: "See “Improvised Explosive Device”.",
+  },
+  {
+    term: "Immiscible",
+    definition: "In this guidebook, means that a material does not mix readily with water.",
+  },
+  {
+    term: "Improvised Explosive Device",
+    definition: "A bomb that is manufactured from commercial, military or homemade explosives.",
+  },
+  {
+    term: "Large spill",
+    definition: "A spill that involves quantities that are greater than 208 liters (55 US gallons) for liquids and greater than 300 kilograms (660 pounds) for solids.",
+  },
+  {
+    term: "LC50",
+    definition: "Lethal concentration 50. The concentration of a material administered by inhalation that is expected to cause the death of 50% of an experimental animal population within a specified time. (Concentration is reported in either ppm or mg/m3)",
+  },
+  {
+    term: "Mass explosion",
+    definition: "Explosion which affects almost the entire load virtually instantaneously.",
+  },
+  {
+    term: "mg/m<sup>3</sup>",
+    definition: "Milligrams of a material per cubic meter of air.",
+  },
+  {
+    term: "Miscible",
+    definition: "In this guidebook, means that a material mixes readily with water.",
+  },
+  {
+    term: "mL/m<sup>3</sup>",
+    definition: "Milliliters of a material per cubic meter of air. (1 mL/m3 equals 1 ppm)",
+  },
+  {
+    term: "Nerve agents",
+    definition: "Substances that interfere with the central nervous system. Exposure is primarily through contact with the liquid (via skin and eyes) and secondarily through inhalation of the vapor. Tabun (GA), Sarin (GB), Soman (GD) and VX are nerve agents.<b>Symptoms</b>: Pinpoint pupils, extreme headache, severe tightness in the chest, dyspnea, runny nose, coughing, salivation, unresponsiveness, seizures.",
+  },
+  {
+    term: "Non-polar",
+    definition: "See “Immiscible”.",
+  },
+  {
+    term: "n.o.s.",
+    definition: "These letters refer to “not otherwise specified”. The entries which use this description are generic names such as “Corrosive liquid, n.o.s.” This means that the actual chemical name for that corrosive liquid is not listed in the regulations; therefore, a generic name must be used to describe it on shipping papers.",
+  },
+  {
+    term: "Noxious",
+    definition: "In this guidebook, means that a material may be harmful or injurious to health or physical well-being.",
+  },
+  {
+    term: "Oxidizer",
+    definition: "A chemical which supplies its own oxygen and which helps other combustible material burn more readily.",
+  },
+  {
+    term: "P",
+    definition: "The letter (<b>P</b>) following a guide number in the yellow-bordered and blue-bordered pages identifies a material which may polymerize violently under high temperature conditions or contamination with other products. It is used to identify materials that have a strong potential for polymerization in the absence of an inhibitor or due to the inhibitor depletion caused by the accident conditions. This polymerization will produce heat and high pressure buildup in containers which may explode or rupture. (See polymerization below)",
+  },
+  {
+    term: "Packing Group",
+    definition: "The Packing Group (PG) is assigned based on the degree of danger presented by the hazardous material: PG I  : Great danger PG II : Medium danger <br>PG III : Minor danger",
+  },
+  {
+    term: "PG",
+    definition: "See Packing Group",
+  },
+  {
+    term: "pH",
+    definition: "pH is a value that represents the acidity or alkalinity of a water solution. Pure water has a pH of 7. A pH value below 7 indicates an acid solution (a pH of 1 is extremely acidic). A pH above 7 indicates an alkaline solution (a pH of 14 is extremely alkaline). Acids and alkalies (bases) are commonly referred to as corrosive materials.",
+  },
+  {
+    term: "PIH",
+    definition: "Poison Inhalation Hazard. Term used to describe gases and volatile liquids that are toxic when inhaled. (Same as TIH)",
+  },
+  {
+    term: "Polar",
+    definition: "See “Miscible”.",
+  },
+  {
+    term: "Polymerization",
+    definition: "This term describes a chemical reaction which is generally associated with the production of plastic substances. Basically, the individual molecules of the chemical (liquid or gas) react with each other to produce what can be described as a long chain. These chains can be formed in many useful applications. A well known example is the styrofoam (polystyrene) coffee cup which is formed when liquid molecules of styrene react with each other or polymerize forming a solid, therefore changing the name from styrene to polystyrene (poly means many).",
+  },
+  {
+    term: "ppm",
+    definition: "Parts per million. (1 ppm equals 1 mL/m<sup>3</sup>)",
+  },
+  {
+    term: "Protective clothing",
+    definition: "Includes both respiratory and physical protection. One cannot assign a level of protection to clothing or respiratory devices separately. These levels were accepted and defined by response organizations such as U.S. Coast Guard, NIOSH, and U.S. EPA. <br>Level A: SCBA plus totally encapsulating chemical resistant clothing (permeation resistant).<br>Level B: SCBA plus hooded chemical resistant clothing (splash suit). <br>Level C: Full or half-face respirator plus hooded chemical resistant clothing (splash suit).<br>Level D: Coverall with no respiratory protection.",
+  },
+  {
+    term: "Pyrophoric",
+    definition: "A material which ignites spontaneously upon exposure to air (or oxygen).",
+  },
+  {
+    term: "Radiation Authority",
+    definition: "As referred to in GUIDES 161 through 166 for radioactive materials, the Radiation Authority is either a Federal, state/provincial agency or state/province designated official. The responsibilities of this authority include evaluating radiological hazard conditions during normal operations and during emergencies. If the identity and telephone number of the authority are not known by emergency responders, or included in the local response plan, the information can be obtained from the agencies listed on the inside back cover. They maintain a periodically updated list of radiation authorities.",
+  },
+  {
+    term: "Radioactivity",
+    definition: "The property of some substances to emit invisible and potentially harmful radiation.",
+  },
+  {
+    term: "Refrigerated liquid",
+    definition: "See “Cryogenic liquid”.",
+  },
+  {
+    term: " Small spill",
+    definition: "A spill that involves quantities that are less than 208 liters (55 U.S. Gallons) for liquids and less than 300 kilograms (660 pounds) for solids.",
+  },
+  {
+    term: "Straight (solid) stream",
+    definition: "Method used to apply or distribute water from the end of a hose. The water is delivered under pressure for penetration. In an efficient straight (solid) stream, approximately 90% of the water passes through an imaginary circle 38 cm (15 inches) in diameter at the breaking point. Hose (solid or straight) streams are frequently used to cool tanks and other equipment exposed to flammable liquid fires, or for washing burning spills away from danger points. However, straight streams will cause a spill fire to spread if improperly used or when directed into open containers of flammable and combustible liquids.",
+  },
+  {
+    term: "TIH",
+    definition: "Toxic Inhalation Hazard. Term used to describe gases and volatile liquids that are toxic when inhaled. (Same as PIH)",
+  },
+  {
+    term: "V",
+    definition: "Saturated vapor concentration in air of a material in mL/m<sup>3</sup> (volatility) at 20<sup>o</sup>C and standard atmospheric pressure.",
+  },
+  {
+    term: "Vapor density",
+    definition: "Weight of a volume of pure vapor or gas (with no air present) compared to the weight of an equal volume of dry air at the same temperature and pressure. A vapor density less than 1 (one) indicates that the vapor is lighter than air and will tend to rise. A vapor density greater than 1 (one) indicates that the vapor is heavier than air and may travel along the ground.",
+  },
+  {
+    term: "Vapor pressure",
+    definition: "Pressure at which a liquid and its vapor are in equilibrium at a given temperature. Liquids with high vapor pressures evaporate rapidly.",
+  },
+  {
+    term: "Viscosity",
+    definition: "Measure of a liquid’s internal resistance to flow. This property is important because it indicates how fast a material will leak out through holes in containers or tanks.",
+  },
+  {
+    term: "Warm zone",
+    definition: "Area between Hot and Cold zones where personnel and equipment decontamination and hot zone support take place. It includes control points for the access corridor and thus assists in reducing the spread of contamination. Also referred to as the contamination reduction corridor (CRC), contamination reduction zone (CRZ), yellow zone or limited access zone in other documents. (EPA Standard Operating Safety Guidelines, OSHA 29 CFR 1910.120, NFPA 472)",
+  },
+  {
+    term: "Water-sensitive",
+    definition: "Substances which may produce flammable and/or toxic decomposition products upon contact with water.",
+  },
+  {
+    term: "Water spray (fog)",
+    definition: "Method or way to apply or distribute water. The water is finely divided to provide for high heat absorption. Water spray patterns can range from about 10 to 90 degrees. Water spray streams can be used to extinguish or control the burning of a fire or to provide exposure protection for personnel, equipment, buildings, etc. <b>(This method can be used to absorb vapors, knock- down vapors or disperse vapors. Direct a water spray (fog), rather than a straight (solid) stream, into the vapor cloud to accomplish any of the above)</b>.<br> Water spray is particularly effective on fires of flammable liquids and volatile solids having flash points above 37.8<sup>o</sup>C (100<sup>o</sup>F). Regardless of the above, water spray can be used successfully on flammable liquids with low flash points. The effectiveness depends particularly on the method of application. With proper nozzles, even gasoline spill fires of some types have been extinguished when coordinated hose lines were used to sweep the flames off the surface of the liquid. Furthermore, water spray carefully applied has frequently been used with success in extinguishing fires involving flammable liquids with high flash points (or any viscous liquids) by causing frothing to occur only on the surface, and this foaming action blankets and extinguishes the fire.",
+  },
+  {
+    term: "Water-sensitive",
+    definition: "Substances which may produce flammable and/or toxic decomposition products upon contact with water.",
+  },
+]
