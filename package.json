@@ -1,7 +1,9 @@
 {
   "name": "erg",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "google-cdn": "^1.0.0"
+  },
   "devDependencies": {
     "compass": "^0.1.0",
     "grunt": "^0.4.5",
