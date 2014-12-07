@@ -35,7 +35,7 @@ $scope.chemicals =[
   },
   ];
 
-    $http.get('../../data/materials.json').success(function(data){
+    $http.get('/data/materials.json').success(function(data){
       $scope.some = data;
 
     

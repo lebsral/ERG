@@ -27,9 +27,9 @@
 
 <tbody>
   <tr ng-repeat="chemical in chemicals | filter: nameFilter" ng-animate="'animate'">
-  <td>{{chemical.Name}}</td>
-  <td>{{chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></td>
-  <td>{{chemical.IdNum}}</td>
+  <td>{{::chemical.Name}}</td>
+  <td>{{::chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></td>
+  <td>{{::chemical.IdNum}}</td>
   <td><img ng-show="chemical.WRM==true" src="images/water.gif" alt="WRM"></td>
   <td><img ng-show="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></td>
   <td><img ng-show="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></td>
