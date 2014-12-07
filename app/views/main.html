@@ -19,8 +19,8 @@
                                 <span id="lblWRMHeader" title="Water Reactive Material">WRM</span>
                             </th><th class="align-center" scope="col">
                                 <span id="lblCWAHeader" title="Chemical Warfare Agent">CWA</span>
-                            </th><th class="align-center" scope="col">
-                                <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span>
+                            </th><span class="label label-success"><th class="align-center" scope="col">
+                                <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span></span>
                             </th>
       </tr>
     </thead>
@@ -30,9 +30,9 @@
   <td>{{::chemical.Name}}</td>
   <td>{{::chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></td>
   <td>{{::chemical.IdNum}}</td>
-  <td><img ng-show="chemical.WRM==true" src="images/water.gif" alt="WRM"></td>
-  <td><img ng-show="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></td>
-  <td><img ng-show="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></td>
+  <td><img ng-if="chemical.WRM==true" src="images/water.gif" alt="WRM"></td>
+  <td><img ng-if="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></td>
+  <td><img ng-if="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></td>
     
 
   </tr>
