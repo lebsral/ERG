@@ -1,56 +1,52 @@
 
-**/<div class="row marketing">
+<div class="row marketing">
 
       
 <input type="text" ng-model="nameFilter" placeholder="Name or Number"/>
-**/
+</div>
 
 
-<div class="container-fluid">
-<div class="row">
- 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4" style="background-color: #79BDE8" class="align-left" scope="col">
+          <span id="lblNameMaterialHeader" title="Name of Material"  class='HLblue'>Name of Material</span>
+      </div>
 
-                  <div class="col-md-4" style="background-color: #79BDE8" class="align-left" scope="col">
-                    
-                            <span id="lblNameMaterialHeader" title="Name of Material"  class='HLblue'>Name of Material</span>
-                            </div>
+      <div class="col-md-4" scope="col">
+          <span id="lblGuideHeader" title="Guide Number">Guide No.</span>
+      </div>
 
-                            <div class="col-md-4" scope="col">
-                                <span id="lblGuideHeader" title="Guide Number">Guide No.</span>
-                            </div>
+      <div class="col-md-1" scope="col">
+          <span style="background-color: #FFF203" id="lblIDNumHeader" title="Identification Number">ID No.</span>
+      </div>
 
-                            <div class="col-md-1" scope="col">
-                                <span style="background-color: #FFF203" id="lblIDNumHeader" title="Identification Number">ID No.</span>
-                            </div>
-                            <div class="col-md-1" scope="col">
-                                <span id="lblWRMHeader" title="Water Reactive Material">WRM</span>
-                            </div>
-                            <div class="col-md-1" scope="col">
-                                <span id="lblCWAHeader" title="Chemical Warfare Agent">CWA</span>
-                            </div>
+      <div class="col-md-1" scope="col">
+        <span id="lblWRMHeader" title="Water Reactive Material">WRM</span>
+      </div>
+
+      <div class="col-md-1" scope="col">
+        <span id="lblCWAHeader" title="Chemical Warfare Agent">CWA</span>
+      </div>
                            
-                            <div class="col-md-1" scope="col">
-                                <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span></span>
-                            </div>
-</div>
-           
-           <div class="row">
-                 <div ng-repeat="chemical in chemicals | filter: nameFilter" ng-animate="'animate'">
-  <div class="col-md-4">{{::chemical.Name}}</div>
-  <div class="col-md-4">{{::chemical.GuideNum}}<div ng-show="chemical.Poly==true">P</div></div>
-  <div class="col-md-1">{{::chemical.IdNum}}</div>
-  <div class="col-md-1"><img ng-if="chemical.WRM==true" src="images/water.gif" alt="WRM"></div>
-  <div class="col-md-1"><img ng-if="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></div>
-  <div class="col-md-1"><img ng-if="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></div>
+      <div class="col-md-1" scope="col">
+        <span id="lblTIHHeader" title="Toxic Inhalation Hazard">TIH</span></span>
+      </div>
+
+ 
     
-           
-        </div>
-        </div>
+  <div class="row">
+    <div ng-repeat="chemical in chemicals | filter: nameFilter" ng-animate="'animate'">
+      <div class="col-md-4">{{::chemical.Name}}</div>
+      <div class="col-md-4">{{::chemical.GuideNum}}<div ng-if="chemical.Poly==true">P</div></div>
+      <div class="col-md-1">{{::chemical.IdNum}}</div>
+      <div class="col-md-1"><img ng-if="chemical.WRM==true" src="images/water.gif" alt="WRM"></div>
+      <div class="col-md-1"><img ng-if="chemical.CWA==true" src="images/chemical.gif" alt="CWA"></div>
+      <div class="col-md-1"><img ng-if="chemical.TIH==true" src="images/tih2.gif" alt="TIH"></div>
+    </div>
+  </div>
+
+  </div>
 
 
 
-
-</div>
-
-</div>
 

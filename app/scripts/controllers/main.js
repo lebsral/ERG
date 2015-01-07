@@ -1832,10 +1832,10 @@ $scope.chemicals =[
   },
   {
     Name: 'Boron trichloride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide125/id857/mnid910\'>125</a>',
+    GuideNum: 125,
     IdNum: 1741,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id857\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id857\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>',
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Boron trifluoride',
@@ -1936,17 +1936,17 @@ $scope.chemicals =[
   },
   {
     Name: 'Bromine pentafluoride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide144/id866/mnid919\'>144</a>',
+    GuideNum: 144,
     IdNum: 1745,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id866\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id866\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>',
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Bromine trifluoride',
-    '<span id=\'lblGuideHeader\' title=\'Guide Number\'>Guide No.</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/guidepage.aspx/guide144/id867/mnid920\'>144</a>',
+    GuideNum: 144,
     IdNum: 1746,
-    '<span id=\'lblWRMHeader\' title=\'Water Reactive Material\'>WRM</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id867\'><img class=\'image-actual\' src=\'img/water.gif\' alt=\'Water Reactive Material image\' title=\'Water Reactive Material\'></a>',
-    '<span id=\'lblTIHHeader\' title=\'Toxic Inhalation Hazard\'>TIH</span>':'<a href=\'/saf-sec-sur/3/erg-gmu/erg/tiipad.aspx/id867\'><img class=\'image-actual\' src=\'img/tih2.gif\' alt=\'TIH image\' title=\'Toxic Inhalation Hazard\'></a>',
+    WRM: true,
+    TIH: true,
   },
   {
     Name: 'Bromoacetic acid',
@@ -2310,7 +2310,7 @@ $scope.chemicals =[
     IdNum: 1745,
     WRM: true,
     TIH: true,
-      },
+  },
   {
     Name: 'Bromine trifluoride',
     GuideNum: 144,
@@ -2318,7 +2318,7 @@ $scope.chemicals =[
     IdNum: 1746,
     WRM: true,
     TIH: true,
-      },
+  },
   {
     Name: 'Bromoacetic acid',
     GuideNum: 156,
@@ -3474,7 +3474,7 @@ $scope.chemicals =[
     IdNum: 1752,
     WRM: true,
     TIH: true,
-      },
+  },
   {
     Name: 'Chloroanilines, liquid',
     GuideNum: 152,
